@@ -15,7 +15,7 @@ class Boa(Animal_Exotico):
     def comer_raton(self, cantidad=1) -> None:
         self.__ratones_comidos += cantidad
         try:
-            self.__ratones_comidos<10
+            self.__ratones_comidos<20
             print(f"Boa ha comido:{self.__ratones_comidos}ratones")
         except ValueError as e:
             print(f"Demasiados Ratones!")
